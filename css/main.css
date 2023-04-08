@@ -4,11 +4,16 @@
 }
 
 body {
-    background: url('../img/bgnew.jpg') no-repeat center center;
+    background: url('../img/bg2.jpg') no-repeat center center;
     background-size: cover;
     color: #fff;
-    max-width: 800px;
     margin: 0 auto;
+    min-height: 500px;
+    min-width: 600px;
+}
+body.scoreBg {
+    background: url('../img/bg-score.jpg') no-repeat center center;
+    background-size: cover;
 }
 .screen2 {
     display: flex;
@@ -25,6 +30,23 @@ body {
     justify-content: center;
     align-items: center;
 }
+.screen3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.screen3 img {
+    height: 100%;
+}
+.zhengjiaoname {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.zhengjiaoname .draggableElement2 {
+    width: 60px;
+}
 
 .hide {
     display: none;
@@ -35,6 +57,7 @@ body {
     width: 265px;
     height: 256px;
     position: relative;
+    margin-bottom: 20px;
 }
 .fordragg {
     float: right;
@@ -42,19 +65,24 @@ body {
     height: 500px;
     width: 211px;
     padding: 50px;
-    font-size: 21px;
+    font-size: 25px;
     margin-right: 20px;
+    color: #bf9000;
+}
+
+.draggableElement,.draggableElement2 {
+    font-size: 25px;
     color: #bf9000;
 }
 .draggableElement2 {
     margin-right: 5px;
     z-index: 100;
     position: relative;
+    font-weight: 700;
 }
 .dropZone2 {
     height: 40px;
     width: 40px;
-    border: 1px solid;
     position: absolute;
 }
 .dropZone2 .draggableElement2 {
@@ -90,4 +118,37 @@ body {
 #zone7 {
     left: 136px;
     top: 152px;
+}
+.table {
+    text-align: center;
+    border-collapse:collapse;border:none;
+    color: #000;
+    font-size: 21px;
+}
+.table th,.table td {
+    height: 39px;
+    border: 1px solid #000;
+    background-color: #fff;
+}
+.table th {
+    background-color: #a8d18d;
+    color: black;
+}
+.table .first {
+    width: 50px;
+}
+.table .sceee {
+    width: 50px;
+}
+.table .userfor {
+    width: 200px;
+}
+.table td.green {
+    background-color: #a8d18d;
+}
+
+.info {
+    font-size: 24px;
+    padding-left: 20px;
+    width: 200px;
 }

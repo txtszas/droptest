@@ -36,7 +36,7 @@
                     <div class="draggableElement">
                         备用端
                     </div>
-                    <div>
+                    <div class="zhengjiaoname">
                         <div class="draggableElement2">CC</div>
                         <div class="draggableElement2">CP</div>
                         <div class="draggableElement2">L</div>
@@ -47,61 +47,73 @@
                     </div>
                 </div>
             </div>
-            <div style="flex: 1;">
-                <div class="header">
-                    <div class="dropZone2" id="zone1"></div>
-                    <div class="dropZone2" id="zone2"></div>
-                    <div class="dropZone2" id="zone3"></div>
-                    <div class="dropZone2" id="zone4"></div>
-                    <div class="dropZone2" id="zone5"></div>
-                    <div class="dropZone2" id="zone6"></div>
-                    <div class="dropZone2" id="zone7"></div>
+            <div style="flex: 1;" class="right">
+                <div style="display: flex;">
+                    <div class="header">
+                        <div class="dropZone2" id="zone1"></div>
+                        <div class="dropZone2" id="zone2"></div>
+                        <div class="dropZone2" id="zone3"></div>
+                        <div class="dropZone2" id="zone4"></div>
+                        <div class="dropZone2" id="zone5"></div>
+                        <div class="dropZone2" id="zone6"></div>
+                        <div class="dropZone2" id="zone7"></div>
+                    </div>
+                <div class="info">
+                    <div>用时：<span id="timer">0:00</span></div>
+                    <div>成绩：<span id="score">0</span></div>
+                </div>
                 </div>
                 <div>
-                <table border="1">
+                <div style="display: flex;align-items: end;">
+                <table class="table">
                     <tr>
-                        <th>序号</th>
-                        <th>针脚</th>
-                        <th>用途</th>
+                        <th class="first">序号</th>
+                        <th class="sceee">针脚</th>
+                        <th class="userfor">用途</th>
                     </tr>
                     <tr>
-                        <td>1</td>
+                        <td class="green">1</td>
                         <td>CC</td>
                         <td class="dropZone"></td>
                     </tr>
                     <tr>
-                        <td>2</td>
+                        <td class="green">2</td>
                         <td>CP</td>
                         <td class="dropZone"></td>
                     </tr>
                     <tr>
-                        <td>3</td>
+                        <td class="green">3</td>
                         <td>L</td>
                         <td class="dropZone"></td>
                     </tr>
                     <tr>
-                        <td>4</td>
+                        <td class="green">4</td>
                         <td>PE</td>
                         <td class="dropZone"></td>
                     </tr>
                     <tr>
-                        <td>5</td>
+                        <td class="green">5</td>
                         <td>N</td>
                         <td class="dropZone"></td>
                     </tr>
                     <tr>
-                        <td>6</td>
+                        <td class="green">6</td>
                         <td>NC1</td>
                         <td class="dropZone"></td>
                     </tr>
                     <tr>
-                        <td>7</td>
+                        <td class="green">7</td>
                         <td>NC2</td>
                         <td class="dropZone"></td>
                     </tr>
                 </table>
+                <div class="show_score_list">成绩排名</div>
+                </div>
                 </div>
             </div>
+        </div>
+        <div class="screen3 hide">
+            <img src="img/score.png" alt="">
         </div>
         <script src="js/hammer.min.js"></script>
         <script src="js/main.js"></script>
