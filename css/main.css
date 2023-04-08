@@ -9,7 +9,7 @@ body {
     color: #fff;
     margin: 0 auto;
     min-height: 500px;
-    min-width: 600px;
+    min-width: 800px;
 }
 body.scoreBg {
     background: url('../img/bg-score.jpg') no-repeat center center;
@@ -151,4 +151,14 @@ body.scoreBg {
     font-size: 24px;
     padding-left: 20px;
     width: 200px;
+}
+.show_score_list {
+    background: url(../img/scorelist.png) no-repeat center center / cover;
+    width: 126px;
+    height: 30px;
+    line-height: 30px;
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+    margin-left: 15px;
 }
