@@ -6,10 +6,13 @@
             测试网站
         </title>
         <link rel="stylesheet" href="css/main.css">
+        <script src="js/zepto.min.js"></script>
     </head>
     <body>
-        <h1>我是标题</h1>
-        <div style="display: flex;width: 800px;">
+        <div class="screen1">
+            <img src="img/start.png" alt="" srcset="" width="200" class="start">
+        </div>
+        <div class="screen2 hide">
             <div style="flex: 1;">
                 <div class="fordragg">
                     <div class="draggableElement">
@@ -33,11 +36,26 @@
                     <div class="draggableElement">
                         备用端
                     </div>
+                    <div>
+                        <div class="draggableElement2">CC</div>
+                        <div class="draggableElement2">CP</div>
+                        <div class="draggableElement2">L</div>
+                        <div class="draggableElement2">PE</div>
+                        <div class="draggableElement2">N</div>
+                        <div class="draggableElement2">NC1</div>
+                        <div class="draggableElement2">NC2</div>
+                    </div>
                 </div>
             </div>
             <div style="flex: 1;">
-                <div class="chongdian">
-                    123123
+                <div class="header">
+                    <div class="dropZone2" id="zone1"></div>
+                    <div class="dropZone2" id="zone2"></div>
+                    <div class="dropZone2" id="zone3"></div>
+                    <div class="dropZone2" id="zone4"></div>
+                    <div class="dropZone2" id="zone5"></div>
+                    <div class="dropZone2" id="zone6"></div>
+                    <div class="dropZone2" id="zone7"></div>
                 </div>
                 <div>
                 <table border="1">
