@@ -2,3 +2,8 @@
     transition: 0.01s;
     transform: translateX(-9999px);
 }
+
+body {
+    background: url('../img/bg.jpg') no-repeat;
+    color: #fff;
+}
